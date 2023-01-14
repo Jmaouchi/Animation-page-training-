@@ -27,7 +27,6 @@ body{
   overflow: hidden;
 }
 
-
 li{
   position: absolute;
   display: block;
@@ -39,77 +38,6 @@ li{
   animation: spin 5s linear infinite;
   bottom: -200px;
 }
-
-.img-one{
-  position: absolute;
-  display: block;
-  list-style: none;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  animation: spin 5s linear infinite;
-  bottom: -50px;
-  left: 50px;
-  mix-blend-mode:luminosity;
-}
-
-
-.img-two{
-  position: absolute;
-  display: block;
-  list-style: none;
-  width: 70px;
-  height: 70px;
-  left: 170px;
-  animation: spin 5s linear infinite;
-  bottom: -200px;
-  mix-blend-mode:darken;
-}
-
-.img-three{
-  position: absolute;
-  display: block;
-  list-style: none;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  animation: spin 8s linear infinite;
-  bottom: -200px;
-  left: 850px;
-  mix-blend-mode:darken;
-}
-
-
-.img-four{
-  position: absolute;
-  display: block;
-  list-style: none;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  animation: spin 5s linear infinite;
-  bottom: -200px;
-  bottom: -200px;
-  left: 850px;
-  mix-blend-mode:luminosity;
-}
-
-
-.img-five{
-  position: absolute;
-  display: block;
-  list-style: none;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  animation: spin 5s linear infinite;
-  bottom: -200px;
-  bottom: -200px;
-  right: 50px;
-  mix-blend-mode:exclusion;
-}
-
-
 
 .glass li:nth-child(1){
   left: 35%;
